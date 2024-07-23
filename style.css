@@ -1,0 +1,207 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  header{
+    padding: 10px;
+    height: 75px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('homep.jpg'); /* Add background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+  }
+  
+  a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  a:hover {
+    color: #23527c;
+  }
+  
+  /* Top Side Styles */
+  
+  .topSide {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .netflixIcon {
+    margin-right: 180px;
+    margin-left: 80px
+  }
+  
+  .img-netflixIcon {
+    width: 150px;
+    height: 75px;
+    
+  }
+  
+  .parent-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .login-card {
+    background-color:rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border: 1px solid #080808;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 385px;
+    height: 500px;
+    
+
+  }
+  
+  h1 {
+    margin-top: 0;
+    color: #f8f2f2;
+    font-size: 33px;
+    padding: 30px 50px;
+    font-family: sans-serif;
+  }
+  
+  .userInput {
+    margin-bottom: 20px;
+  }
+  
+  .userInput input[type="text"],
+  .userInput input[type="password"] {
+    width: 270px;
+    padding: 10px ;
+    border: 1px solid #7f7575;
+    border-radius: 2px;
+    font-size: 13px;
+    height: 50px;
+    background-color: #121111;
+    color: whitesmoke;
+    margin-left: 30px;
+  }
+  
+  .userInput input[type="text"]:focus,
+  .userInput input[type="password"]:focus {
+    border-color: #f6f5f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .btn-login {
+    background-color: #e50914;
+    color: #f2e2e2;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    height: 35px;
+    width: 270px;
+    margin-left: 30px;
+  }
+  
+  .btn-login:hover {
+    background-color: #df1010;
+  }
+  
+  .remMe {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #605353;
+  }
+  
+  .remMe input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .cText {
+    font-size: 14px;
+    color: #e6dede;
+  }
+  
+  .login2 {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #c4b8b8;
+  }
+  
+  .login2 img {
+    margin-right: 10px;
+  }
+  
+  .fb {
+    color: #3b5998;
+  }
+  
+  .signUp {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #696868;
+  }
+  
+  .sLink {
+    color: #e7d8d1;
+  }
+  
+  .google {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #655959;
+  }
+  
+  .footer {
+    background-color: #141414;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .footWidth {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+
+.tel-link {
+    color: #337ab7;
+}
+
+.footLay {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footList {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.footLink {
+    color: #337ab7;
+}
+
+.footLink:hover {
+    color: #23527c
+}
+
+  
